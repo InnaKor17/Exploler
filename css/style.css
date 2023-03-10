@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+
+}
+.baner-bg {
+    background-image: url('../images/baner-7.png');
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    padding: 60px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.container.wrapper {
+    max-width: 800px;
+}
+
+.logo {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav__list .li {
+    margin-left: 24px;
+}
+
+.nav__list .li a {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.content .about {
+    display: flex;
+    margin-left: 60px;
+}
+
+.about .img {
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.content .text {
+    color: #FFFFFF;
+}
+
+.preview {
+    background-image: url('../images/baner-1.png');
+    /* дaем изображение к html не подключаем, все изображения только через css*/
+    padding: 160px 0 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.preview h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 35px;
+    margin-right: 270px;
+    margin-left: 60px;
+}
+.content .block {
+    background-color: #FFF;
+   
+}
+
+.block {
+    font-family: 'Lato-Regular';
+    padding: 36px 76px 0 60px;
+   
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    
+}
+
+.block span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #8D4FDB;
+}
+
+.preview1 {
+    background-image: url('../images/baner-2.png');
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0 40px;
+}
+
+.preview1 h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 35px;
+    margin-right: 270px;
+    margin-left: 60px;
+}
+
+.preview2 {
+    background-image: url('../images/baner-3.png');
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0 40px;
+}
+
+.preview2 h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 35px;
+    margin-right: 270px;
+    margin-left: 60px;
+}
+
+.content .info {
+    display: block;
+    justify-content: center;
+}
+
+.content .info p {
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+    margin: 49px 250px 21px;
+}
+
+.content .info a {
+    margin: 21px 309px 60px;
+    width: 182px;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: #8D4FDB;
+   
+   
+}
+
+.stories .text {
+    color: black;
+}
+
+.stories .text h2 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.stories .text p {
+    font-size: 23px;
+    line-height: 33px;
+    color: #A9AFB3;
+    margin-bottom: 50px;
+}
+
+.block .col .wrapper {
+    display: flex;
+}
+
+.block .col {
+    background-image: url('../images/baner-4.png');
+    width: 300px;
+    height: 190px;
+    background-repeat: no-repeat;
+}
+
+.block .col img {
+    padding-top: 130px;
+    padding-left: 18px;
+    width: 35px;
+    height: 35px;
+}
+
+.block .li p {
+    color: #FFFFFF;
+    margin-top: 133px;
+    padding-left: 8px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.block .li span {
+    color: #FFFFFF;
+    padding-left: 8px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.block .text h3 {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    padding-right: 50px;
+    margin-top: 23px;
+    font-family: 'Montserrat';
+}
+
+.block .jessica {
+    background-image: url('../images/baner-5.png');
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.block .luke {
+    background-image: url('../images/baner-6.png');
+    background-repeat: no-repeat;
+}
+
+.icon .wrapper .block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.stories .block .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+}
+.stories .block li {
+    position: relative;
+}
+
+
+.stories .link .wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato-Regular';
+    font-size: 15px;
+    line-height: 30px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.stories .link p {
+    color: #333333;
+}
+
+.stories .link span {
+    color: #8D4FDB;
+    margin-left: 10px;
+}
+
+.copy .licenses .wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato-Regular';
+    font-size: 13px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.copy .licenses img {
+    color: #8B8B8B;
+    
+}
+
+.copy .licenses p {
+    color: #8B8B8B;
+    margin-left: 5px;
+}
+.copy .licenses span a {
+    color: #8D4FDB;
+    margin-left: 5px;
+}
+.copy .wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 28px;
+}
+.copy .studio img {
+    color: #8B8B8B;
+   
+}
+.copy .studio span a {
+    color: #8D4FDB;
+    margin-left: 5px;
+}
+.copy .webflow p {
+    color: #8B8B8B;
+    margin-left: 10px;
+
+}
+.copy .webflow span a {
+    color: #8D4FDB;
+    margin-left: 5px;
+}
+footer {
+  
+   background-color: #000000;
+ padding-top: 55px;
+ padding-bottom: 45px;
+}
